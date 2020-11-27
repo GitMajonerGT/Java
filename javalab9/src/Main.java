@@ -1,3 +1,4 @@
+import Model.Dyrektor;
 import Model.Handlowiec;
 import View.View;
 
@@ -8,8 +9,10 @@ public class Main {
 
 
         Handlowiec handlowiec = new Handlowiec();
+        Dyrektor dyrektor = new Dyrektor();
+        dyrektor.View();
 
-        handlowiec.View();
+        //handlowiec.View();
 
     String ala = "0057";
     String olo = "0056";

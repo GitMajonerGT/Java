@@ -21,9 +21,10 @@ public class View {
     public void menu(){
 
         System.out.println("1.Lista pracownikow");
-        System.out.println("1.Dodaj pracownika");
-        System.out.println("1.Usun pracownika");
-        System.out.println("5.Kopia zapasowa"); // co to?
+        System.out.println("2.Dodaj pracownika");
+        System.out.println("3.Usun pracownika");
+        System.out.println("4.Kopia zapasowa"); // co to?
+        System.out.println("Wybor: ");
 
     }
 

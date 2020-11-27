@@ -4,7 +4,10 @@ public class Handlowiec extends Pracownik {
 
     @Override
     public void View() {
-        System.out.println("no i jest");
         super.View();
+        System.out.println("Prowizja");
+        System.out.println("Limit prowizji / miesiac");
     }
+
+
 }

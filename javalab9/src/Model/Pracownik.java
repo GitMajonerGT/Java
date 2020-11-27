@@ -2,12 +2,14 @@ package Model;
 
 public class Pracownik {
 
+    private String Pesel;
     private String Imie;
     private String Nazwisko;
-    private String Pesel;
-    private String Profesja;
+    private String Stanowisko;
     private int liczba_pracownikow;
+    private int id = 0;
 
+    public int getId(){return id;}
     public String getImie() {
         return Imie;
     }
@@ -28,7 +30,13 @@ public class Pracownik {
     }
 
     public void View(){
-        System.out.println("przed dziedziczeniem");
+
+        System.out.println("Pesel");
+        System.out.println("Imie");
+        System.out.println("Nawisko");
+        System.out.println("Stanowisko:");
+        System.out.println("Wynagrodzenie:");
+
     }
 
 

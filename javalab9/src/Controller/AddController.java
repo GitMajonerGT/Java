@@ -5,12 +5,13 @@ import Model.Pracownik;
 
 import java.util.List;
 
-
-
 public class AddController {
 
     public AddController(){};
 
+    public void initialise(){
+
+    }
 
     public void add_czlowiek(){
         Pracownik pracownik = new Pracownik();
